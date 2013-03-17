@@ -180,7 +180,7 @@ typedef struct GIKPopoverExtents GIKPopoverExtents;
 
 - (UIImage *)sideArrowImage
 {
-    [self adjustCentersIfNecessary];
+    //[self adjustCentersIfNecessary];
     
     if ([self isArrowBetweenTopAndBottomEdgesOfPopover])
     {
